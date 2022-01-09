@@ -16,7 +16,7 @@
 
 ## Live page
 
->
+> 'https://maureenmurugi.github.io/delaniStudio/'
 
 ## Installation/Setup
 
