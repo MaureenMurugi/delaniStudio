@@ -29,6 +29,19 @@ $(document).ready(function() {
         $("#product").slideUp('1500');
         $("#product-image").slideDown('1500');
         });
-        
+            
+});
+$(document).ready(function() {
+$('work1').mouseover(function (){
+    $('#overlay').show();
+}).mouseout(function (){
+    $('#overlay').hide();
+});
 });
 
+$("form#my-form").submit(function (event){
+    event.preventDefault();
+    var name = $("#MERGE1").val();
+    alert("Dear "+ name + "we have received your message. Thank you for reaching out to us");
+    document.getElementById("my-form").reset();
+});
